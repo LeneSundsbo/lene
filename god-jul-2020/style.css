@@ -1,0 +1,33 @@
+body {
+  background-color: #005695 !important;
+  padding: 0;
+}
+
+img {
+  width: 100%; }
+
+.container {
+  padding: 0;
+  width: 100%; }
+
+h1 {
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 300;
+  padding: 50px 50px; }
+
+h2 {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  font-weight: 300;
+  padding: 50px; }
+
+
+@media screen and (min-width: 576px) {
+.container {
+    max-width: 2000px;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0; }
+}
