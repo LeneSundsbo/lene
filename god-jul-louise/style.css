@@ -1,28 +1,24 @@
 body {
-  background-color: #000;
+  background-color: #283746;
+  color: #283746;
   font-size: 1.3em;
   line-height: 1.5em;
-  font-family: 'Questrial', sans-serif;
-  font-weight: 100;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
   letter-spacing: 0.05em;
   padding: 2em 0;
 }
 
 img {
-  width: 100%
-}
+  width: 100%; }
 
 .container {
-  padding: 0em 1em;
+  padding: 0em;
 }
 
 p {
   text-align: center;
-  color: #d6c156;
   margin-bottom: 1.5em;
-/*  background: -webkit-linear-gradient(#7d6e21, #fde777, #7d6e21, #7d6e21, #fde777, #c5b358);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
 }
 
 a {
@@ -40,16 +36,16 @@ a:visited {
 }
 
 h1 {
-  font-family: 'Abril Fatface', cursive;
-  font-size: 2.2em;
+  color: #283746;
+  font-size: 1.6em;
   line-height: 1.2em;
-  letter-spacing: 0.15em;
-  font-weight: 300;
+  letter-spacing: 0.1em;
+  font-weight: 400;
   text-transform: uppercase;
   text-align: center;
-  background: -webkit-linear-gradient(#7d6e21, #fde777, #7d6e21, #c5b358);
+  /*background: -webkit-linear-gradient(#7d6e21, #fde777, #7d6e21, #c5b358);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;*/
 }
 
 h2 {
@@ -112,8 +108,26 @@ h3 {
   width: 16.2em;
 }
 
+
+.cTickets {
+  padding: 20px;
+  margin: 0 40px;
+  background-color: #fff;
+  border-radius: 1rem 1rem 0 0;
+}
+
+
+@media screen and (min-width: 576px) {
+.container {
+    max-width: 2000px;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0; }
+}
+
+/*
 @media screen and (max-width: 640px) {
   body {
     font-size: 1.2em;
   }
-}
+}*/
