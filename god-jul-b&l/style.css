@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif=swap');
+
 body {
   background-color: #0082BE !important;
   color: 323C46;
-  font-family: "droid serif", "cambria";
+  font-family: "Droid Serif", "Cambria", "Helvetica";
   padding: 0;
   text-align: center; }
 
@@ -16,13 +18,13 @@ h1 {
   font-size: 30px;
   line-height: 1.3;
   font-weight: 600;
-  margin: 50px 50px 0px 50px; }
+  margin: 50px 20px 0px 20px; }
 
 h2 {
   font-size: 16px;
   line-height: 1.4;
   font-weight: 300;
-  padding: 20px 50px; }
+  padding: 20px 20px; }
 
 
 @media screen and (min-width: 576px) {
